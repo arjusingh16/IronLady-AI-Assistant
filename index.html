@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lady AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <h2>💖 Lady AI Assistant</h2>
+    <span id="progress">Step 1 / 4</span>
+  </header>
+
+  <div id="chat"></div>
+
+  <div id="typing">🤖 AI is typing...</div>
+
+  <div class="cards" id="cards"></div>
+
+  <div class="controls">
+    <button onclick="undo()">↩ Undo</button>
+    <button onclick="resetChat()">♻ Reset</button>
+  </div>
+
+  <div class="input-area">
+    <input id="input" placeholder="Type here..." />
+    <button onclick="send()">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
